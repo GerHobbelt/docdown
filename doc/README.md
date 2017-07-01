@@ -2,9 +2,13 @@
 
 <!-- div class="toc-container" -->
 
+
+
+
 <!-- div -->
 
-## `docdown`
+## <a name="toc-docdown"></a> docdown
+
 * <a href="#docdownoptions">`docdown`</a>
 
 <!-- /div -->
@@ -13,18 +17,27 @@
 
 <!-- div class="doc-container" -->
 
+
+
+
 <!-- div -->
 
-## `docdown`
+## docdown
+
+
+
 
 <!-- div -->
 
-<h3 id="docdownoptions"><code>docdown(options)</code></h3>
-[&#x24C8;](https://github.com/jdalton/docdown/blob/0.7.3-1/index.js#L26 "View in source") [&#x24C9;][1]
+### <a name="docdownoptions"></a> `docdown(options)` [&#x24C8;](https://github.com/jdalton/docdown/blob/0.7.3-1/index.js#L26 "View in source") [&#x24C9;][1]
 
 Generates Markdown documentation based on JSDoc comments.
 
+
+
+
 #### Arguments
+
 1. `options` *(Object)*: The options object.
 2. `options.path` *(string)*: The input file path.
 3. `options.url` *(string)*: The source URL.
@@ -34,7 +47,11 @@ Generates Markdown documentation based on JSDoc comments.
 7. `[options.title='<%]` *(string)*: The documentation title.
 8. `[options.toc='properties']` *(string): The table of contents organization style &#42;('categories' or 'properties')*&#42;.
 
+
+
+
 #### Returns
+
 *(string)*: The generated Markdown code.
 
 ---
@@ -45,4 +62,7 @@ Generates Markdown documentation based on JSDoc comments.
 
 <!-- /div -->
 
- [1]: #docdown "Jump back to the TOC."
+
+
+
+ [1]: #toc-docdown "Jump back to the TOC."
