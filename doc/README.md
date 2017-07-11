@@ -1,4 +1,4 @@
-# docdown <sup>v0.7.3-1</sup>
+# docdown <sup>v0.7.3-2</sup>
 
 <!-- div class="toc-container" -->
 
@@ -29,7 +29,7 @@
 
 <!-- div -->
 
-### <a name="docdownoptions"></a> `docdown(options)` [&#x24C8;](https://github.com/jdalton/docdown/blob/0.7.3-1/index.js#L26 "View in source") [&#x24C9;][1]
+### <a name="docdownoptions"></a> `docdown(options)` [&#x24C8;](https://github.com/GerHobbelt/docdown/blob/0.7.3-2/index.js#L26 "View in source") [&#x24C9;][1]
 
 Generates Markdown documentation based on JSDoc comments.
 
