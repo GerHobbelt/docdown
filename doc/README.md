@@ -1,4 +1,4 @@
-# docdown <sup>v0.7.3-3</sup>
+# docdown <sup>v0.7.3-4</sup>
 
 <!-- div class="toc-container" -->
 
@@ -29,7 +29,7 @@
 
 <!-- div -->
 
-### <a name="docdownoptions"></a> `docdown(options)` [&#x24C8;](https://github.com/GerHobbelt/docdown/blob/0.7.3-3/index.js#L26 "View in source") [&#x24C9;][1]
+### <a name="docdownoptions"></a> `docdown(options)` [&#x24C8;](https://github.com/GerHobbelt/docdown/blob/0.7.3-4/index.js#L26 "View in source") [&#x24C9;][1]
 
 Generates Markdown documentation based on JSDoc comments.
 
@@ -44,7 +44,7 @@ Generates Markdown documentation based on JSDoc comments.
 4. `[options.lang='js']` *(string)*: The language indicator for code blocks.
 5. `[options.sort=true]` *(boolean)*: Specify whether entries are sorted.
 6. `[options.style='default']` *(string): The hash style for links &#42;('default' or 'github')*&#42;.
-7. `[options.title='<%]` *(string)*: The documentation title.
+7. `[options.title='<%= basename(options.path) %> API documentation']` *(string)*: The documentation title.
 8. `[options.toc='properties']` *(string): The table of contents organization style &#42;('categories' or 'properties')*&#42;.
 
 

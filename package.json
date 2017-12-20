@@ -1,6 +1,6 @@
 {
-  "name": "docdown",
-  "version": "0.7.3-3",
+  "name": "@gerhobbelt/docdown",
+  "version": "0.7.3-4",
   "description": "A simple JSDoc to Markdown documentation generator.",
   "license": "MIT",
   "main": "index.js",
@@ -14,13 +14,14 @@
   ],
   "repository": "jdalton/docdown",
   "dependencies": {
-    "doctrine": "2.0.0",
+    "doctrine": "2.0.2",
     "lodash": "4.17.4"
   },
   "scripts": {
-    "build": "node bin/docdown index.js doc/README.md style=github title=\"docdown <sup>v0.7.3-3</sup>\" url=https://github.com/GerHobbelt/docdown/blob/0.7.3-3/index.js",
+    "build": "node bin/docdown index.js doc/README.md style=github title=\"docdown <sup>v0.7.3-4</sup>\" url=https://github.com/GerHobbelt/docdown/blob/0.7.3-4/index.js",
     "doc": "node bin/docdown index.js doc/README.md style=github title=\"docdown <sup>v${npm_package_version}</sup>\" url=https://github.com/jdalton/docdown/blob/${npm_package_version}/index.js",
-    "test": "true"
+    "test": "true",
+    "pub": "npm publish --access public"
   },
   "files": [
     "index.js",
